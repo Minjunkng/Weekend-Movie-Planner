@@ -78,30 +78,7 @@ Accepts order JSON and stores it in server memory.
 GET /stats-data
 Returns computed statistics for all services as JSON.
 
-Project Structure
-project/
-│
-├── server.js
-├── interact.js
-├── stats.js
-├── home.html
-├── orderForm.html
-├── stats.html
-├── styles.css
-│
-├── streamingServices/
-│   ├── service1.json
-│   ├── service2.json
-│   └── ...
-│
-├── images/
-│   ├── logo.svg
-│   ├── selected.svg
-│   ├── unselected.svg
-│   └── remove.svg
-│
-└── README.md
-Requirements
+**Requirements**
 
 You must have:
 
