@@ -86,19 +86,19 @@ Node.js installed
 A modern web browser
 All project files in the same directory structure
 
-How to Run the Server
+How to Run the Server: 
 Step 1 — Open Terminal
 
 Navigate to the project folder:
 
 cd path/to/project
-Step 2 — Start Server
+Step 2 — Start Server: 
 node server.js
 
 If successful, the terminal will show:
 
 Server running on http://localhost:3000
-Step 3 — Open Application
+Step 3 — Open Application: 
 
 Open your browser and visit:
 
