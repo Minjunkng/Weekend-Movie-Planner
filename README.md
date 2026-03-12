@@ -111,5 +111,5 @@ How to Use the Application
 Home Page
 
 END NOTE:
-AI was used to generate the logo for the header, as well as the catowl.jpg
+AI was used to generate the logo for the header, as well as the catowl.jpg. 
 AI was also used for guidance in relation to the styling in the styles.css file.
