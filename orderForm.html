@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"Movie Weekend" Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+
+    <div class="logo-title">
+        <img src="images/header.png" alt="Weekend Movie Planner Logo" class="logo">
+        <h1>Weekend Movie Planner</h1>
+    </div>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/order"class="active">Order Form</a>
+        <a href="/stats">Statistics</a>
+    </nav>
+
+    <div class="service-selector">
+            <label for="serviceSelect">Browse Service</label>
+            <select id="serviceSelect">
+                <option value="">Select a Service</option>
+            </select>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="service-info">
+            <h2 id="serviceName"></h2>
+            <p id="minOrder"></p>
+            <p id="serviceFee"></p>
+        </div>
+
+        <!-- Genres across top -->
+        <nav class="genres-top">
+            <ul id="genreList">
+            </ul>
+        </nav>
+
+        <!-- Movies and Order columns -->
+        <div class="columns">
+            <section class="movies-column" id="moviesColumn">
+                <h3 id="movie-list">Movies</h3>
+                <div id="moviesContainer"></div>
+            </section>
+
+            <aside class="order-column">
+                <h3>Current Order</h3>
+                <ul id="orderList"></ul>
+                <div class="order-totals">
+                    <p id="total-fees"></p>
+                    <p id="subtotal"></p>
+                    <p id="tax"></p>
+                    <p id="total"></p>
+                    <p id="minOrderMsg" class="minOrderMsg"></p>
+                    <button id="submitOrder" class="hidden">Place Order</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <script src="interact.js"></script>
+</body>
+</html>
