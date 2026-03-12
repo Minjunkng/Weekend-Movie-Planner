@@ -1,5 +1,5 @@
-Design Decisions
-1. Automatic Service Loading
+# Design Decisions
+**1. Automatic Service Loading**
 
 All streaming services are stored as .json files inside the streamingServices/ directory.
     At server startup:
@@ -9,7 +9,7 @@ All streaming services are stored as .json files inside the streamingServices/ d
     The server starts only after loading completes
 
 
-2. Separation of Concerns
+**2. Separation of Concerns**
 
 The system is divided into:
 
@@ -20,7 +20,7 @@ stats.js	Statistics page rendering
 JSON files	Service data storage
 
 
-3. In-Memory Order History
+**3. In-Memory Order History**
 
 Orders submitted by users are stored in:
     orderHistory[]
@@ -30,7 +30,7 @@ Each order contains:
     service fees
     totals
 
-4. Statistics Computation Strategy
+**4. Statistics Computation Strategy**
 
 Statistics are computed dynamically when /stats-data is requested.
 
@@ -40,7 +40,7 @@ For each streaming service:
     average order cost (excluding tax)
     most frequently ordered movie
 
-5. API-Based Client Updates
+**5. API-Based Client Updates**
 
 Client-side code does NOT embed service data.
 
